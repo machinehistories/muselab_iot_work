@@ -7,7 +7,7 @@ namespace MuseIoT {
 	//% weight=90	
 	//% blockGap=7	
     export function initializeWifi(): void {
-        serial.redirect(SerialPin.P16,SerialPin.P8,BaudRate.BaudRate115200);
+        serial.redirect(SerialPin.P1,SerialPin.P2,BaudRate.BaudRate9600);
     }
 	
 	// -------------- 2. WiFi ----------------
